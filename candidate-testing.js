@@ -9,7 +9,7 @@ let question="Who was the first American woman in space? ";
 let correctAnswer="sally ride";
 let candidateAnswer="";
 let questions=[" Who was the first American woman in space? ",
-              " True or False: 5000 meters = 5 kilometers ",
+              " True or false: 5000 meters = 5 kilometers ",
               " (5+3)/2*10=?",
               " Given the array [8, 'Orbit', 'Trajectory', 45] what entry is at index 2? ",
               " What is the minimum crew size for the International Space Station (ISS)? "];
@@ -67,13 +67,11 @@ function runProgram() {
 console.log("------------------------")
 console.log("QUIZ RESULTS")
 console.log("Candidate Name: " + candidateName)
-console.log("")
   for (i=0;i<questions.length;i++)
   {
     console.log(questions[i])
     console.log(` Your Answer: ${candidateAnswers[i]}`);
     console.log(` Correct Answer: ${correctAnswers[i]}`);
-    console.log("")
 
   }
     console.log(">>> Overall Grade: " + (grade / questions.length * 100) + "% (" +grade + " of 5 responses correct) <<<");
