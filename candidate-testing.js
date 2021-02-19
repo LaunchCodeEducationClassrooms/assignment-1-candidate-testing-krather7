@@ -23,6 +23,7 @@ function askForName() {
 const input = require('readline-sync');
 candidateName = input.question("What is your name?: ");
 
+
 }
 
 function askQuestion() {
